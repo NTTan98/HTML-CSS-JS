@@ -45,7 +45,6 @@ function BtnShowPrev() {
   }
 }
 
-console.log(NodeList.length);
 next.addEventListener("click", function () {
   currenIndex++;
   ShowGallery(currenIndex);
